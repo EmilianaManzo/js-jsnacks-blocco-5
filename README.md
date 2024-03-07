@@ -36,3 +36,11 @@ Snack 3
 3. utilizzo split per rendere la stringa un array
 4. utlizzo reverse per girare l array
 5. utilizzo join per creare una nuova stringa partendo dall'array
+
+Snack 4
+1. inizializzo un array vuoto 
+2. creo un ciclo for por ciclare la lunghezza degli array gia prestabiliti
+3. utilizzo push per inserire gli elementi degli array nell'array definitivo secondo l'indice che hanno 
+
+Snack 5
+1.

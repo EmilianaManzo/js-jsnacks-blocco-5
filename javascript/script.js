@@ -112,3 +112,23 @@ function rigiraStr (str){
 rigiraStr(parola);
 
 console.log(rigiraStr(parola));
+
+
+// SNACK 4 
+
+const coseBelle =  ['mare', 'sole', 'spiaggia', 'estate', 'css'];
+
+const coseBrutte = ['freddo', 'pioggia', 'stress', 'inverno', 'javascript'];
+
+const cose = [];
+
+for (let i= 0; i < coseBelle.length; i++ ){
+  cose.push(coseBelle[i]);
+  cose.push(coseBrutte[i]);
+}
+
+console.log(cose);
+
+
+// SNACK 5
+
