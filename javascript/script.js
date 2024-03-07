@@ -132,3 +132,21 @@ console.log(cose);
 
 // SNACK 5
 
+const numero1 = 2
+const numero2 = 5
+const gruppetto = ['bello', 'scemo', 'zoppo','simpatico', 'basso', 'alto'];
+
+
+function creazione (numero1, numero2, gruppetto){
+  const newgruppetto = [];
+
+  for (let i = numero1; i <= numero2; i++) {
+    newgruppetto.push(gruppetto[i]);
+
+  }
+  return newgruppetto;
+}
+
+const gruppoFantastici= creazione(numero1, numero2, gruppetto);
+
+console.log(gruppoFantastici);
