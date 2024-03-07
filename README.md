@@ -22,7 +22,13 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
 ## Svolgimento 
 Snack 1
 1. creo un array con 10 oggetti che rappresentano 10 tipologie di zucchine
-2. creo una funzione somma per calcolare il peso di tutte le zucchine
+2. inizializzo una variabile 
+3. in un ciclo for each concateno la variabile creata in precedenza con il peso delle zucchine 
 
 Snack 2
+1. creo due array vuoti nei quali andro a push le diverse zucchine di dimensioni diverse 
+2. utilizzo il filer per dividere le zucchine
+3. inizializzo due variabili, una per ogni nuovo array e faccio un foreach;
+
+Snack 3
 1.

@@ -67,5 +67,36 @@ zucchine.forEach(zucchina => {
   pesoTotale += zucchina.peso;
 })
 
-console.log('vaffanculo stronzi', pesoTotale);
+console.log('vi odio zucchine', pesoTotale);
 
+// SNACK 2
+
+const zucchineCorte =[];
+const zucchineLunghe =[];
+
+zucchine.filter(zucchina =>{
+  if (zucchina.lunghezza < 15){
+    return zucchineCorte.push(zucchina);
+  }else{
+    return zucchineLunghe.push(zucchina);
+  }
+})
+
+console.log(zucchineCorte);
+console.log(zucchineLunghe);
+
+
+let pesoTotaleCorte = 0;
+zucchineCorte.forEach(zucchina => {
+  pesoTotaleCorte += zucchina.peso;
+});
+
+console.log(pesoTotaleCorte);
+
+
+let pesoTotaleLunghe = 0;
+zucchineLunghe.forEach(zucchina => {
+  pesoTotaleLunghe += zucchina.peso;
+});
+
+console.log(pesoTotaleLunghe);
