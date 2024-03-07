@@ -31,4 +31,8 @@ Snack 2
 3. inizializzo due variabili, una per ogni nuovo array e faccio un foreach;
 
 Snack 3
-1.
+1. inzializzo una variaile con una stringa
+2. creo una function per rigirare la parola
+3. utilizzo split per rendere la stringa un array
+4. utlizzo reverse per girare l array
+5. utilizzo join per creare una nuova stringa partendo dall'array

@@ -100,3 +100,15 @@ zucchineLunghe.forEach(zucchina => {
 });
 
 console.log(pesoTotaleLunghe);
+
+
+// SNACK 3
+const parola = 'zucchine';
+
+function rigiraStr (str){
+  return str.split('').reverse().join('')
+}
+
+rigiraStr(parola);
+
+console.log(rigiraStr(parola));
