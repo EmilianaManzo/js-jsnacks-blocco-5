@@ -61,8 +61,11 @@ const zucchine =[
   }
 ];
 
-const [peso, lunghezza] = zucchine; 
-const {peso, lunghezza} = zucchina;
+let pesoTotale = 0;
 
+zucchine.forEach(zucchina => {
+  pesoTotale += zucchina.peso;
+})
 
-console.log(peso , lunghezza);
+console.log('vaffanculo stronzi', pesoTotale);
+
